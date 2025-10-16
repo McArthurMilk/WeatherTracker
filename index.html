@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Tracker</title>
+</head>
+<body>
+    <header>
+        <h1> Weather Tracker</h1>
+        <p> Whether you're watching the weather or want a
+        warning on the warm and windy, you're
+        welcome to witness it here!</p>
+        <div>
+            <label for="">City/Zip Code:</label>
+            <input type="text" id="locationInput"
+                   placeholder="Enter City or zip code"
+                    class = "locationInput">
+        </div>
+    </header>
+    <section>
+        <div>
+            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaaabDVip89mwF8-kg339095uJTMFCon2ukg&s"
+                 alt = "Depicting Forecast"
+                 id = "forecast-image" />
+            <div>
+                <h3>Forecast</h3>
+                <ul>
+                    <li>
+                        <div>
+                        <h4>Date</h4>
+                            <span id = "date-detail"> October 16th,2025</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <h4>Weather</h4>
+                            <span id = "weather-detail"> Sunny</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <h4>Average Temperature</h4>
+                            <span id = "temp-detail"> 80f</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                        <h4>Humidity</h4>
+                            <span id = "humid-detail"> 80%</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <button id = "prev-button"> Previous Day</button>
+            <button id = "weather-button"> Get Weather</button>
+            <button id = "next-button"> Next Day</button>
+        </div>
+    </section>
+<footer>
+    <ul>
+        <li>
+            <p>&copy; 2025 Weather Tracker</p>
+        </li>
+        <li> <a href = "https://www.linkedin.com/in/luis-gutierrez1966/">LinkedIn</a><li>
+        <li> <a href = "https://github.com/McArthurMilk">GitHub</a><li>
+    </ul>
+</footer>
+<script type = "module" src="script.js"></script>
+</body>
+</html>
